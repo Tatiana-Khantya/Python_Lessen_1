@@ -17,4 +17,10 @@ elif x < 0:
     else:
         print("III четверть")
 else:
-    print("Точка лежит на оси")
+    if x == 0 and y != 0:
+        print("Точка лежит на оси y")
+    elif x!= 0 and y == 0:
+        print("Точка лежит на оси x")
+    else:
+        print("Точка лежит в начале координат")
+
