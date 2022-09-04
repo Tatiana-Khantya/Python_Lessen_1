@@ -6,7 +6,7 @@
 a = int(input('Enter number: '))
 if a == 6 or a == 7:
     print("yes")
-elif a == 1 or a == 2 or a== 3 or a == 4 or a== 5:
+elif 0 < a < 6 :
     print('no')
 else:
     print('there is no such a day of week')
