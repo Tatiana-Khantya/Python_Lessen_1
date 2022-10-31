@@ -10,7 +10,7 @@ while sieve:
     prime = min(sieve)
     prime_list.append(prime)
     sieve -= set(range(prime, num + 1, prime))
-print(prime_list)
+#print(prime_list)
 prime_list_num = []
 for i in prime_list:
     if num% i == 0:
